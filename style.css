@@ -84,7 +84,6 @@ ul.navbar-nav:nth-child(1) > li:nth-child(n) > a:nth-child(n){
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
-    padding-top: 50px;
 }
 
 .two{
@@ -416,6 +415,7 @@ footer a:hover{
     text-align: center;
     height: 100%;
 }
+}
     @media (max-width:767px) {
     .one{
         height: 50vh;
@@ -429,5 +429,7 @@ footer a:hover{
     align-items: center;
     height: 50vh;
  }
-}
+        .one{
+        padding-top: 50px;
+        }
 }
