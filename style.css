@@ -385,3 +385,11 @@ footer a i {
 footer a:hover{
     color: #fff;
 }
+@media (max-width:767px) {
+    carousel-caption{
+        width: 100%;
+    }
+    carousel-caption h1{
+        font-size: 18px;
+    }
+}
