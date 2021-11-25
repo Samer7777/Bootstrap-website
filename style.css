@@ -484,7 +484,7 @@ footer a:hover{
 }
 
 @media (max-width:767px) {
-.circule-2{
+/* .circule-2{
     flex-direction: row;
     top: auto;
     bottom: 20px;
@@ -492,9 +492,10 @@ footer a:hover{
     left: 50%;
     transform: translateX(-50%);
     z-index: 10000;
-}
+} */
 .circule-2 i {
-    margin: 10px;
+    margin: 5px;
+    font-size: 20px;
 }
 .circule-2 i:hover{
     transform: scale(1.3);
