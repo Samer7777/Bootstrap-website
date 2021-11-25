@@ -434,3 +434,64 @@ footer a:hover{
             margin-top:50px
         }
 }
+
+#carding .btn-primary{
+    background: var(--main-color);
+}
+
+.circule-2{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.circule-2 i {
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#pirble{
+    color: #8011f5;
+}
+#red{
+    color:#e55039;
+}
+#blue{
+    color: #0a3d62;
+}
+#green{
+    color: #10ac84;
+}
+#aqua{
+    color:#01a3a4 ;
+}
+#rose{
+    color  : #c44569;
+}
+#light-pirable{
+    color  :  #3f5095 ;
+}
+#darkGreen{
+    color  :  #387529 ;
+}
+
+@media (max-width:767px) {
+.circule-2{
+    flex-direction: row;
+    top: auto;
+    bottom: 20px;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+}
+.circule-2 i {
+    margin: 10px;
+}
+.circule-2 i:hover{
+    transform: scale(1.3);
+}
+}
