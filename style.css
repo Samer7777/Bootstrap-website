@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.my_form{
+    box-shadow: 2px 2px 8px rgba(36, 28, 28, 0.3);
+    padding: 20px;
+}
+.navbar {
+    top: 0;
+    left: 0;
+}
+.custom-nav{
+    background-color: #8011f5;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    font-size: 14px;
+}
+@media (min-width:1367px) and (max-width:2000px) {
+    .custom-nav{
+        font-size: 17px ;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+
+    transition: .3s ease;
+    margin: 0 20px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: black;
+}
+
+
+.navbar .nav-item i{
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0px 4px;
+}
+.navbar  .nav-item  i:hover{
+    color: black;
+}
+.logo-img{
+    width: 70px;
+    height: 70px;
+    padding: 4px;
+}
+.navbar-toggler{
+    background-color: #ffff;
+    border: none;
+    outline: none;
+}
+.navbar-toggler:focus{
+    outline: none;
+    border: none;
+}
+
+#bar{
+    font-size: 30px;
+    color: royalblue;
+}
+html body nav.navbar.navbar-expand-lg.navbar-dark.custom-nav div.container button.navbar-toggler,
+html body nav.navbar.navbar-expand-lg.navbar-dark.custom-nav div.container button.navbar-toggler:focus{
+    border: none;
+    outline: none;
+}
+
+ul.navbar-nav:nth-child(n){
+    text-align: center;
+}
+ul.navbar-nav:nth-child(1) > li:nth-child(n) > a:nth-child(n){
+    margin: 10px 0;
+}
+.costum_modal_ul{
+    padding: 10px 0;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+@media (max-width:767px) {
+    .one{
+        height: 60vh;
+    }
+    #about{
+        margin-top: 30px;
+    }
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two img{
+    display: block;
+    margin: auto;
+}
+
+h5 {
+    color: #34495e;
+    font-size: 18px;
+}
+h1{
+    color: #2c3e50;
+    font-weight: 700;
+}
+p{
+    color: #34495e;
+    font-size: 18px;
+    font-weight: 600;
+}
+#home span{
+    color: #8011f5;
+}
+.home-hr{
+    color: #8011f5;
+    width: 50%;
+    height: 5px !important;
+    opacity: 1 !important;
+    margin-top: -3px;
+}
+ .second-hr{
+    color: #8011f5  !important;
+    height: 5px !important;
+    opacity: 1 !important;
+    margin-top: -3px;
+    width: 10%;
+    margin-top: -3px;
+}
+#carding h1{
+    margin-top: 30px;
+}
+#carding .card{
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+#carding .card:hover{
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    transition: 0.5s ease;
+    background-color: #7f11f5d5;
+    color: #fff;
+}
+
+.card-body a{
+    border: none !important;
+    outline: none !important;
+    transition: 0.3s ease;
+}
+
+#carding .card:hover .card-body a{
+    background-color: #fff;
+    border: none !important;
+    outline: none !important;
+    color: #8011f5;
+}
+.card-body a:hover{
+    color: #000 !important;
+}
+
+.card-title{
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+.card-text{
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+#carding .card:hover .card-title,
+#carding .card:hover .card-text{
+    color: #fff !important;
+}
+#about{
+    width: 100%;
+}
+#about .circule{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2c3e50;
+    position: relative;
+}
+#about .circule::before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffff;
+    position: absolute;
+    bottom: 5px;
+    right: 13px;
+}
+#about h1{
+    color: #8011f5;
+}
+.pic-letter .pic{
+    height: 460px;
+    background-image: url('./img/about.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: #8011f5;
+    margin-right: -10px;
+}
+.pic-letter .letter{
+    height: 460px;
+    background-color:#fff;
+    margin-left: -50px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+@media (max-width:767px) {
+    .pic-letter .letter{
+        margin-left: 0px;
+    }
+    .pic-letter .pic{
+        margin-right: 0px;
+    }
+}
+.pic-letter > div img{
+    object-fit: cover;
+}
+.letter h1{
+    font-size: 20px;
+    margin: 20px 0;
+    color: #2c3e50 !important;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+}
+.letter p{
+    font-size: 15px !important;
+    font-family: 'Dancing Script', cursive;
+}
+.letter a {
+    background-color: #8011f5c2;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+}
+.letter a:hover{
+    background-color: #8011f5;
+}
+#banner{
+    width: 100%;
+    height: 60vh;
+    background-image: url('./img/banner.jpg');
+    background-position: top -20px center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+#banner  .overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: 0;
+}
+#banner .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    flex-direction: column;
+}
+#banner .container h5,
+#banner .container h1 {
+    color: #fff;
+}
+#banner .container h5{
+    font-size: 16px;
+    line-height: 26px;
+}
+#banner .container  span{
+    color: #6a25b2;
+}
+#Carousel .second-hr{
+    width: 10%;
+}
+
+#carouselExampleFade .carousel-caption{
+    z-index: 4;
+}
+#carouselExampleFade .carousel-caption h1{
+    color: #000;
+}
+#carouselExampleFade .carousel-caption h1 span{
+    color: #8011f5;
+}
+#carouselExampleFade .carousel-caption p{
+    color: #000;
+}
+#contact-us{
+    padding: 5px 20px;
+}
+#contact-us .my_form{
+    margin-top: 30px;
+    background-color: #7f11f5;
+    border-radius: 10px;
+}
+#contact-us .my_form label{
+    font-size: 13px;
+    color: #fff;
+    padding: 12px 0;
+}
+#contact-us .submit-btn{
+    border: none;
+    outline: none;
+    padding: 6px 17px;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #ffff;
+}
+#contact-us .submit-btn:hover{
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+
+/**************************somthing wrong in the bootstrap modal so i make the overlay be befor my search modal so i can see my modal******************************/
+.modal-content{
+    background-color: #8011f5;
+}
+.modal-header{
+    border: none;
+}
+.modal-backdrop{
+    z-index: 10;
+}
+.navbar .btn-close {
+    color: #fff;
+    opacity: 1;
+    font-size: 19px;
+}
+.modal-content h1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 2px solid rgb(233, 231, 231);
+    padding-bottom: 7px;
+}
+.modal-content .modal-body span{
+    color: #fff;
+}
+.modal-content .modal-body  a{
+    color: #000;
+}
+footer{
+    background-color: #8011f5;
+    padding: 10px 0 0 0;
+}
+footer p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+footer p i{
+    color: #d35400;
+    cursor: pointer;
+}
+footer p span {
+    color: #202d3b;
+    font-weight: bold;
+}
+footer a {
+    text-decoration: none;
+    color: #2c3e50;
+    transition: 0.3s ease;
+}
+footer a i {
+    font-size: 20px;
+}
+footer a:hover{
+    color: #fff;
+}
