@@ -87,7 +87,7 @@ ul.navbar-nav:nth-child(1) > li:nth-child(n) > a:nth-child(n){
 }
 @media (max-width:767px) {
     .one{
-        height: 60vh;
+        height: 70vh;
     }
     #about{
         margin-top: 30px;
