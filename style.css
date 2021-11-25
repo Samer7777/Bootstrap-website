@@ -83,7 +83,8 @@ ul.navbar-nav:nth-child(1) > li:nth-child(n) > a:nth-child(n){
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 100vh;
+    height: 50vh;
+    padding-top: 50px;
 }
 /* @media (max-width:767px) {
     .one{
