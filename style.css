@@ -294,6 +294,7 @@ p{
 
 #carouselExampleFade .carousel-caption{
     z-index: 4;
+    background-color: #fffdfd63;
 }
 #carouselExampleFade .carousel-caption h1{
     color: #000;
