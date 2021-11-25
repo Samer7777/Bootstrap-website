@@ -90,6 +90,7 @@ ul.navbar-nav:nth-child(1) > li:nth-child(n) > a:nth-child(n){
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .two img{
     display: block;
