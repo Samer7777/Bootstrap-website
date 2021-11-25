@@ -86,18 +86,12 @@ ul.navbar-nav:nth-child(1) > li:nth-child(n) > a:nth-child(n){
     height: 50vh;
     padding-top: 50px;
 }
-/* @media (max-width:767px) {
-    .one{
-        height: 60vh;
-    }
-    #about{
-        margin-top: 30px;
-    }
-} */
+
 .two{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50vh;
 }
 .two img{
     display: block;
@@ -421,5 +415,19 @@ footer a:hover{
     color: #fff;
     text-align: center;
     height: 100%;
+}
+    @media (max-width:767px) {
+    .one{
+        height: 50vh;
+    }
+    #about{
+        margin-top: 30px;
+    }
+    .two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+ }
 }
 }
