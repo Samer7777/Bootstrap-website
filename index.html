@@ -415,5 +415,17 @@
             $(".navbar-collapse").collapse('hide');
         });
     </script>
+            <script>
+        const colors = document.getElementsByClassName('colors');
+        let i;
+        for(i = 0; i<colors.length;i++){
+            colors[i].addEventListener('click', changeColor);
+        }
+        function changeColor(){
+            let color = this.getAttribute('data-color');
+            document.documentElement.style.setProperty('--main-color',color);
+        }
+        changeColor();
+    </script>
     </body>
 </html>
