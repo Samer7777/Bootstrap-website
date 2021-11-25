@@ -393,3 +393,11 @@ footer a:hover{
         font-size: 18px;
     }
 }
+@media (max-width:500px) {
+    carousel-caption h1{
+        font-size: 14px;
+    }
+    carousel-caption p {
+        font-size: 12px;
+    }
+}
